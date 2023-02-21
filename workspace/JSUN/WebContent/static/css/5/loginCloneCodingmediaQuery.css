@@ -1,0 +1,254 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1400px) {
+	.mainContainerDiv6Div1Div {
+		display: flex;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	.headContainerDiv1Div {
+		height: 64px;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	.headContainerDiv1DivDivDivDiv {
+		margin-right: 48px;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	.headContainerDiv1DivDiv {
+		padding-left: 40px;
+		padding-right: 40px;
+		max-width: 1312px;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	.bodyContainer {
+		-webkit-box-pack: center;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	.bodyContainerDiv {
+		margin-top: unset;
+		margin-bottom: unset;
+		-webkit-box-align: center;
+		align-items: center;
+	}
+}
+
+
+@media screen and (max-width: 1400px) {
+	.bodyContainerDivDiv {
+		max-width: 480px;
+		padding-left: 32px;
+		padding-right: 32px;
+		border-radius: 20px;
+		overflow: hidden;
+		z-index: 0;
+	}
+}
+
+
+@media screen and (max-width: 1400px) {
+	.bodyContainerDivDivDiv {
+		min-height: 392px;
+		padding-top: 36px;
+		padding-bottom: 36px;
+		-webkit-box-pack: justify;
+		justify-content: space-between;
+	}
+}
+
+
+@media screen and (max-width: 1400px) {
+	.loninContainer {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	.kakaoButton {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+}
+
+
+@media screen and (max-width: 1400px) {
+	.kakaoButton {
+		padding-left: 14px;
+		padding-right: 14px;
+	}
+}
+
+
+@media screen and (max-width: 1400px) {
+	.kakaoButton {
+		width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 1400px) {
+	.kakaoButtonDivSpan {
+		width: 20px;
+		height: 20px;
+	}
+}
+
+
+@media screen and (max-width: 1400px) {
+	.kakaoButtonDivDiv3 {
+		width: 2px;
+		height: 0;
+	}
+}
+
+
+@media screen and (max-width: 1400px) {
+	.kakaoButtonDivSpan2 {
+		line-height: 1.25rem;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.kakaoButtonDivSpan2 {
+		line-height: 1.25rem;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	.kakaoButtonDivSpan2 {
+		font-size: 1rem;
+	}
+}
+
+
+@media screen and (max-width: 1400px) {
+	.loginContainerDiv2Div2A {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+}
+
+
+
+@media screen and (max-width: 1400px) {
+	.loginContainerDiv2Div2A {
+		padding-left: 14px;
+		padding-right: 14px;
+	}
+}
+
+
+@media screen and (max-width: 1400px) {
+	.loginContainerDiv2Div2A {
+		width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 1400px) {
+	.loginContainerDiv2Div2aDivSpan {
+		line-height: 1.25rem;
+	}
+}
+
+
+@media screen and (max-width: 1400px) {
+	.loginContainerDiv2Div2aDivSpan {
+		font-size: 1rem;
+	}
+}
+
+
+@media screen and (max-width: 1400px) {
+	.loginContainerDiv3 {
+		-webkit-flex: 1 1 20px;
+		-ms-flex: 1 1 20px;
+		flex: 1 1 20px;
+	}
+}
+
+
+@media screen and (max-width: 1400px) {
+	.loginContainerDiv4 {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+	}
+}
+
+
+
+@media screen and (max-width: 1400px) {
+	.loginContainerDiv4aDiv {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+	}
+}
+
+
+@media screen and (max-width: 1400px) {
+	.loginContainerDiv4aDiv2 {
+		display: none;
+	}
+}
+
+
+
+@media screen and (max-width: 1400px) {
+	.bodyContainerDivDiv2 {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 1400px) {
+	.bodyContainerDivDiv2Div {
+		display: none;
+	}
+}
+
+
+
+@media screen and (max-width: 1400px) {
+	.bodyContainerDivDiv2DivADiv {
+		display: flex;
+	}
+}
+
+
+
+@media screen and (max-width: 1400px) {
+	.bodyContainerDivDiv2DivADiv2 {
+		display: none;
+	}
+}
+
+
+
+@media screen and (max-width: 1400px) {
+	.bodyContainer2 {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+	}
+}
+/* 
+@media screen and (max-width: 640px) {
+	.bodyContainer2 {
+		display: none;
+	}
+} */
