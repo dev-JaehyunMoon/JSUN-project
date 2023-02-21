@@ -1,0 +1,477 @@
+@charset "UTF-8";
+
+* {
+	font-family: -apple-system, BlinkMacSystemFont, 'Pretendard JP',
+		Pretendard, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI',
+		'Noto Sans KR', 'Malgun Gothic', sans-serif;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+/* @supports (top: env(safe-area-inset-top))
+:root {
+	--safe-area-inset-top: env(safe-area-inset-top);
+	--safe-area-inset-right: env(safe-area-inset-right);
+	--safe-area-inset-bottom: env(safe-area-inset-bottom);
+	--safe-area-inset-left: env(safe-area-inset-left);
+} */
+
+:root {
+	-webkit-print-color-scheme: light;
+	color-scheme: light; 
+	--system-on-color: #0c0c0c;
+}
+
+/* @
+supports (top: env(safe-area-inset-top))
+:root { -
+	-safe-area-inset-top: env(safe-area-inset-top); -
+	-safe-area-inset-right: env(safe-area-inset-right); -
+	-safe-area-inset-bottom: env(safe-area-inset-bottom); -
+	-safe-area-inset-left: env(safe-area-inset-left);
+} */
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-ms-overflow-style: scrollbar;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+	text-align: left;
+	text-transform: none;
+	letter-spacing: 0;
+	line-height: 1;
+	overflow-wrap: anywhere;
+	text-align: left;
+	text-transform: none;
+	letter-spacing: 0;
+	font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto',
+		'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol';
+	background: #f8f8f9;
+	position: relative;
+}
+
+[lang='ko'] body {
+	word-break: keep-all;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+	em, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, b, u,
+	i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+	caption, article, aside, canvas, details, embed, figure, figcaption,
+	footer, header, hgroup, menu, nav, output, ruby, section, summary, time,
+	mark, audio, video, button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+div {
+	display: block;
+}
+
+section {
+	display: block;
+}
+
+button {
+	appearance: auto;
+	writing-mode: horizontal-tb !important;
+	word-spacing: normal;
+	text-indent: 0px;
+	text-shadow: none;
+	text-align: center;
+	font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto',
+		'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol';
+	line-height: inherit;
+}
+
+button, input, optgroup, select, textarea {
+	margin: 0;
+	font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto',
+		'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol';
+	line-height: inherit;
+}
+
+button, input {
+	overflow: visible;
+}
+
+button, select {
+	text-transform: none;
+}
+
+button, html [type='button'], [type='reset'], [type='submit'] {
+	-webkit-appearance: button;
+}
+
+svg:not(:root) {
+	overflow: hidden;
+	overflow-clip-margin: content-box;
+}
+
+/* svg[Attributes Style] {
+	width: 24;
+	height: 24;
+	fill: none;
+} */
+svg {
+	filter: drop-shadow(rgba(41, 42, 43, 0.1) 0px 1px 3px)
+		drop-shadow(rgba(0, 0, 0, 0.1) 0px 0px 0.5px);
+}
+
+:not(svg) {
+	transform-origin: 0px 0px;
+}
+
+/* path[Attributes Style] {
+	fill-rule: evenodd;
+	d: path("M 15.5 5.5 l -6 6.5 l 6 6.5 L 14 20 l -7.5 -8 L 14 4 l 1.5 1.5 Z");
+	fill: rgb(239, 239, 239);
+} */
+a {
+	-webkit-text-decoration: none;
+	text-decoration: none;
+	color: inherit;
+}
+
+span {
+	transform: translate(0px);
+}
+
+input {
+	margin: 0;
+}
+
+textarea {
+	overflow: auto;
+	resize: vertical;
+}
+
+hr {
+	margin: 20px 0;
+	border: none;
+	border-bottom: 1px solid rgba(16, 22, 26, 0.15);
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}
+
+::selection {
+	background-color: #ff5946 !important;
+	color: #fff !important;
+}
+
+.mainContainer {
+	position: relative;
+    max-width: 640px;
+    margin: 0px auto;
+}
+
+.mainContainerDiv {
+	padding: 24px;
+	background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.mainContainerDivDiv {
+	display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.mainContainerDivDivDiv {
+	display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.mainContainerDivDivDivSpan {
+	display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(248, 248, 248);
+    text-align: center;
+    vertical-align: top;
+}
+
+.mainContainerDivDivDivSpanImg {
+	width: 100%;
+    border-radius: 50%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.mainContainerDivDivDivDiv {
+	display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.mainContainerDivDivDivDivDiv2 {
+	font-size: 11px;
+    font-weight: normal;
+    color: rgb(162, 162, 162);
+    line-height: 16px;
+    letter-spacing: normal;
+    margin: 0px;
+}
+
+.mainContainerDivDiv2 {
+	font-size: 11px;
+    font-weight: 600;
+    color: rgb(26, 26, 26);
+    line-height: 16px;
+    letter-spacing: normal;
+    margin: 0px;
+}
+
+.mainContainerDivDiv3 {
+	font-size: 11px;
+    font-weight: 600;
+    color: rgb(26, 26, 26);
+    line-height: 16px;
+    letter-spacing: normal;
+    margin: 0px;
+}
+
+.mainContainerDivDiv4 {
+	margin-bottom: 12px;
+}
+
+.mainContainerDivDiv5 {
+	white-space: pre-line;
+    word-break: break-all;
+    font-size: 14px;
+    font-weight: normal;
+    color: rgb(26, 26, 26);
+    line-height: 20px;
+    letter-spacing: -0.15px;
+    margin: 0px;
+}
+
+.mainContainerDivDiv6 {
+	margin-bottom: 8px;
+}
+
+.mainContainerDivPicture {
+	width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 150ms;
+}
+
+.mainContainerDivPictureImg {
+	border-radius: 3px;
+	object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+
+.mainContainerDivDiv7 {
+	margin-bottom: 10px;
+}
+
+.mainContainerDivPicture2 {
+	width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    opacity: 0.6;
+    transition-property: opacity;
+    transition-duration: 150ms;
+}
+
+.mainContainerDivPicture2Img {
+	border-radius: 3px;
+	object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+
+.mainContainerDivDiv8 {
+	margin-bottom: 10px;
+}
+
+.mainContainerDivDiv9 {
+	margin-bottom: 16px;
+}
+
+.mainContainerDivDiv10 {
+	display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.mainContainerDivDiv10Button {
+	width: auto;
+    display: inline-flex;
+    vertical-align: middle;
+    border-radius: 3px;
+    color: rgb(26, 26, 26);
+    background-color: rgb(248, 248, 248);
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.2px;
+    padding: 0px 12px;
+    height: 32px;
+    transition: background-color 0.1s ease 0s;
+    text-decoration-line: none;
+    border: 0px;
+    outline: none;
+    margin: 0px;
+    flex: initial;
+    box-sizing: border-box;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.mainContainerDivDiv10Button:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.mainContainerDivDiv10ButtonSpan {
+	flex: 0 0 auto;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.mainContainerDivDiv10ButtonSpanDiv {
+	margin-left: 2px;
+    color: rgb(58, 58, 58);
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: normal;
+    margin: 0px;
+}
+
+.mainContainerDivDiv11 {
+	margin-bottom: 16px;
+}
+
+.mainContainerDivA {
+	display: block;
+}
+
+.mainContainerDivADiv {
+	padding: 12px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    box-shadow: rgb(41 42 43 / 10%) 0px 2px 5px, rgb(41 42 43 / 6%) 0px 0px 0.5px;
+    border-radius: 3px;
+}
+
+.mainContainerDivADivDiv {
+	flex: 0 0 auto;
+    width: 80px;
+    margin-right: 12px;
+}
+
+.mainContainerDivADivDivSpan {
+	display: block;
+    position: relative;
+    overflow: hidden;
+    font-size: 0px;
+    padding-top: 75%;
+    background: rgb(238, 238, 238);
+}
+
+.mainContainerDivADivDivSpanPicture{
+	top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.mainContainerDivADivDivSpanPictureImg {
+	transition: opacity 0.1s linear 0s;
+    object-fit: cover;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.mainContainerDivADiv2Div {
+	font-size: 11px;
+    color: rgb(26, 26, 26);
+    line-height: 16px;
+    letter-spacing: normal;
+    margin: 0px;
+    font-weight: 700;
+}
+
+.mainContainerDivADiv2Div2 {
+	font-size: 14px;
+    font-weight: normal;
+    color: rgb(26, 26, 26);
+    line-height: 20px;
+    letter-spacing: -0.15px;
+    margin: 4px 0px 0px;
+    max-height: 40px;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.mainContainerDivDiv12 {
+	margin: 32px 0px 24px;
+}
+
+.mainContainerDivDiv12Hr {
+	box-shadow: rgb(248 248 248) 0px -1px 0px inset;
+    border: none;
+    height: 1px;
+    margin: 0px !important;
+}
+
+.mainContainerDivDiv13 {
+	margin-bottom: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
