@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="black-plus-circle" transform="translate(-1 -1)">
+    <path id="패스_17" data-name="패스 17" d="M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm5,11H13v4a1,1,0,0,1-2,0V13H7a1,1,0,0,1,0-2h4V7a1,1,0,0,1,2,0v4h4a1,1,0,0,1,0,2Z"/>
+    <path id="패스_18" data-name="패스 18" d="M12,23A11,11,0,1,1,23,12,11,11,0,0,1,12,23ZM12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Z"/>
+  </g>
+</svg>
