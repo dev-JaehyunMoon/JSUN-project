@@ -1,0 +1,1419 @@
+@charset "UTF-8";
+
+.rewriteLogo {
+	display: block;
+}
+.logoImg1 {
+	width: 60px;
+    height: 46px;
+}
+
+element.style {
+    color: rgb(243, 243, 243);
+    --system-on-color: #f3f3f3;
+}
+a{
+	text-decoration: none;
+}
+
+a {
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: inherit;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+button, input, select {
+    margin: 0;
+}
+button {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+body {
+    margin: 0;
+    overflow-wrap: anywhere;
+    line-height: 1;
+}
+body{
+	display: block;
+    margin: 8px;
+}
+main{
+	display: block;
+}
+div {
+    display: block;
+}
+div {
+	margin: 0;
+    padding: 0;
+    border: 0;
+	font-size: 100%;
+    vertical-align: baseline;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body>div {
+    position: relative;
+    z-index: 0;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+img, video {
+    max-width: 100%;
+} 
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+}
+/* @supports (top: env(safe-area-inset-top)){
+:root {
+    --safe-area-inset-top: env(safe-area-inset-top);
+    --safe-area-inset-right: env(safe-area-inset-right);
+    --safe-area-inset-bottom: env(safe-area-inset-bottom);
+    --safe-area-inset-left: env(safe-area-inset-left);
+} */
+.wholeContainer{
+	width: 100%;
+    height: 100%;
+    padding-right: env(safe-area-inset-right);
+}
+.mainContainer{
+	width: 100%;
+    height: 100%;
+    padding-left: constant(safe-area-inset-left);
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+	padding-right: constant(safe-area-inset-right);
+}
+.mainContainerDiv1{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: stretch;
+	-webkit-box-align: stretch;
+	-ms-flex-align: stretch;
+	align-items: stretch;
+	-webkit-flex-direction: column;
+    -ms-flex-direction: column;
+	flex-direction: column;
+	z-index: 210;
+    position: relative;
+}
+
+.mainContainerDivDiv1{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: stretch;
+	-ms-flex-align: stretch;
+	-webkit-box-align: stretch;
+	align-items: stretch;
+	-webkit-flex-direction: column;
+    -ms-flex-direction: column;
+	flex-direction: column;
+}
+
+
+.mainContainerDiv2{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: stretch;
+	-webkit-box-align: stretch;
+	align-items: stretch;
+	flex-direction: column;
+	z-index: 199;
+	top: 0;
+	position: sticky;
+}
+.mainContainerDiv3{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: stretch;
+	-webkit-box-align: stretch;
+	-ms-flex-align: stretch;
+	align-items: stretch;
+	-webkit-flex-direction: column;
+    -ms-flex-direction: column;
+	flex-direction: column;
+    z-index: 198;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    transition-property: top;
+    transition-duration: 300ms;
+}
+.mainContainerDiv4{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 0;
+	-webkit-align-items: stretch;
+	-webkit-box-align: stretch;
+	-ms-flex-align: stretch;
+	align-items: stretch;
+	-webkit-flex-direction: column;
+    -ms-flex-direction: column;
+	flex-direction: column;
+    z-index: 197;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    transition-property: top;
+    transition-duration: 300ms;
+}
+.mainContainerDiv5{
+	display: flex;
+	margin-top: 0;
+    margin-bottom: 0;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    flex-direction: column;
+    z-index: 196;
+    top: 0;
+    position: sticky;
+    transition-property: top;
+    transition-duration: 300ms;
+}
+.mainContainerDiv6{
+	position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+}
+.mainContainerDiv6Div1{
+	display: flex;
+    height: 100vh;
+    width: 100vw;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+
+.mainContainerDiv6Div1Div{
+	display: flex;
+	height: 100%;
+    width: 100%;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.mainContainerDiv6DivDiv1DivPicture{
+	width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+.mainContainerDiv6DivPictureImg{
+	object-fit: cover;
+    width: 100%;
+    height: 672px;
+    vertical-align: top;
+    height: 800px;
+}
+
+.mainContainerDiv6DivDiv1DivPicture::after {
+	content: "";
+}
+
+
+.mainContainerDiv6Div2{
+	display: flex;
+    width: 100%;
+    height: 100%;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    flex-direction: column;
+    z-index: 1;
+    position: absolute;
+}
+
+.headContainer{
+	display: block;
+    width: 100%;
+    max-width: 1232px;
+    margin: 0px auto;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    flex-direction: column;
+    margin-bottom: 12px;
+    margin-top: 15px;
+    
+    }
+
+
+.headContainerDiv1{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-flex-shrink: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-align-items: stretch;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+
+.headContainerDiv1Div{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-flex-shrink: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: relative;
+    overflow: visible;
+    height: 52px;
+    width: 100%;
+    background-color: #00000000;
+}
+
+
+.headContainerDiv1DivDiv{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-flex-shrink: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    box-sizing: border-box;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 202;
+    max-width: 100%;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.headContainerDiv1DivDivDiv{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    box-sizing: border-box;
+    position: relative;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+.headContainerDiv1DivDivDivDiv{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-flex-shrink: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-align-items: stretch;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    z-index: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 0;
+}
+.headContainerDiv1DivDivDivDivSpan{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-flex-shrink: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: relative;
+    width: auto;
+    height: auto;
+}
+.headContainerDiv1DivDivDivDivSpanSpan{
+	display: block;
+    width: auto;
+    height: 22px;
+}
+.headContainerSvg{
+	display: block;
+    width: auto;
+    height: 100%;
+    fill: #f3f3f3;
+}
+/* .rewriteLogoImage{
+	width:100%;
+	height:100%
+} */
+.headContainerDiv1DivDivDivDiv1{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-flex-shrink: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    box-sizing: border-box;
+    position: relative;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.headContainerDiv1DivDivDiv1{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    box-sizing: border-box;
+    position: relative;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.contentContainer{
+	display: flex;
+	flex: 1;
+	-webkit-box-align: stretch;
+	align-items: stretch;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	justify-content: center;
+	-ms-flex-pack: center;
+    -webkit-justify-content: center;
+}
+.contentContainerDiv{
+	display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: unset;
+    margin-bottom: unset;
+    webkit-box-align: center;
+    align-items: center;
+}
+
+.contentContainerDivMargin{
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 480px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 20px;
+    overflow: hidden;
+    z-index: 0;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(229, 229, 229);
+}
+
+.formsectionContainer{
+	display: flex;
+	-webkit-box-align: stretch;
+	align-items: stretch;
+	flex-direction: column;
+	min-height: 392px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.formsectionHead{
+	display: flex;
+	padding-bottom: 20px;
+	-webkit-box-align: stretch;
+	align-items: stretch;
+	flex-direction: column;
+	padding-top: 0;
+}
+.formsectionHeadH3{
+	border-width: 0;
+    color: rgb(12, 12, 12);
+    margin: 0;
+    padding: 0;
+    font-size: 1.625rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+}
+.formsectionContent{
+	display: flex;
+	webkit-box-align: stretch;
+	align-items: stretch;
+	flex-direction: column;
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+}
+.formsectionContentDiv{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: stretch;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.formTagDiv{
+	display: flex;
+    margin-bottom: 8px;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    flex-direction: column;
+}
+.formTagDivDiv{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: stretch;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.formtagDivDivP{
+	border-width: 0px;
+    color: rgb(58, 58, 58);
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 1.125rem;
+}
+.formtagDivDivDiv{
+	width: 0px;
+    height: 10px;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.formtagDivDivDiv2{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: stretch;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.emailInputbox{
+	background-color: rgb(255, 255, 255);
+    border-width: 0;
+    border-radius: 2px;
+    outline-style: none;
+    color: var(--system-on-color);
+    width: 446px;
+    height: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.125rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.15);
+} 
+.formTagDiv2{
+	width: 0;
+    height: 12px;
+    -webkit-box-flex: 0;
+  	flex-grow: 0;
+    flex-shrink: 0;
+}
+.formTagDiv2Div{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: stretch;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.formTagDiv2DivP{
+	border-width: 0px;
+    color: rgb(58, 58, 58);
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 1.125rem;
+}
+.formTagDiv2DivDiv{
+	width: 0px;
+    height: 10px;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.formTagDiv2DivDiv2{
+	display: flex;
+	-webkit-box-align: stretch;
+	align-items: stretch;
+	flex-direction: column;
+}
+.formTagDiv2DivDiv2Div{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+}
+.passwordInputbox{
+	background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    outline-style: none;
+    color: var(--system-on-color);
+    width: 421px;
+    height: 100%;
+    padding-right: 42px;
+    padding-left: 16px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.125rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.15);
+}
+.formTagDiv2DivDiv2DivDiv{
+	display: flex;
+    height: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    right: 0px;
+    padding-right: 16px;
+    z-index: 1;
+    position: absolute;	
+}
+.formtagDiv2DivDiv2DivDivSpan{
+	display: block;
+    width: 18px;
+    height: 18px;
+}
+.formtagDiv2DivDiv2DivDivSpanSvg{
+	display: block;
+    width: 100%;
+    height: 100%;
+    fill: rgb(76, 76, 76);
+}
+.passwordEyePath{
+	fill: rgb(76, 76, 76);
+}
+.findPasswordSection{
+	display: flex;
+    margin-bottom: 12px;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    flex-direction: row-reverse;
+} 
+
+.findPasswordSectionP{
+	border-width: 0;
+    color: #747474;
+    margin: 0;
+    padding: 0;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.125rem;
+}
+
+.submitButton{
+	cursor: pointer;
+	overflow: hidden;
+	z-index: 0;
+	background-color: #ff5d00;
+    border-width: 0;
+    border-radius: 2px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+    display: inline-flex;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+}
+.submitButton::before{
+	position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.2s;
+    background-color: #ffffff;
+    content: "";
+}
+.submitButtonDiv{
+    display: flex;
+    visibility: inherit;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.submitButtonDivDiv{
+	width: 4px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.submitButtonDivSpan{
+	border-width: 0px;
+    color: var(--system-on-color);
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+}
+.submitButtonDiv2{
+	width: 4px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+}
+.formsectionContentDiv2{
+	flex: 0 0 auto;
+    background-color: rgba(255, 255, 255, 0.15);
+    width: 100%;
+    height: 1px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.snsLoginSection{
+	display: flex;
+	-webkit-box-align: stretch;
+	align-items: stretch;
+	flex-direction: column;
+}
+
+
+.kakaoButton{
+	cursor: pointer;
+	overflow: hidden;
+    z-index: 0;
+   background-color: rgba(0, 0, 0, 0.05);
+    border-width: 0;
+    border-radius: 2px;
+	align-items: center;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    justify-content: center;
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+.kakaoButton::before{
+	position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.2s;
+    background-color: #f3f3f3;
+    content: "";
+}
+.kakaoButtonDiv{
+	display: flex;
+    visibility: inherit;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: row;
+}
+.kakaoButtonDivDiv{
+	width: 2px;
+	display: flex;
+}
+
+.kakaoButtonDivSpan{
+	display: block;
+	width: 20px;
+    height: 20px;
+}
+.kakaoButtonDivSpanSvg{
+	display: block;
+    width: 100%;
+    height: 100%;
+    fill: var(--system-on-color);
+}
+/* input:focus {outline: 2px solid #d50000;} */
+.kakaoLogoPath{
+	fill: #FEE500;
+}
+.kakaoButtonDivDiv2{
+	width: 2px;
+	display: flex;
+}
+
+ 
+.kakaoButtonDivDiv3{
+	width: 2px;
+    height: 0;
+	-webkit-box-flex: 0;
+	flex-grow: 0;
+	flex-shrink: 0;
+}
+.kakaoButtonDivDiv4{
+	width: 4px;
+	display: flex;
+}
+/* 
+@media screen and (min-width: 1024px){
+.kakaoButtonDivDivSpan {
+    line-height: 1.25rem;
+    font-size: 1rem;
+	}
+}
+ */
+.kakaoButtonDivDivSpan{
+	border-width: 0;
+    color: var(--system-on-color);
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    line-height: 1.25rem;
+        font-size: 1rem;
+}
+.kakaoButtonDivDiv5P{
+	border-width: 0;
+    color: #0c0c0c;;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+}
+.kakaoButtonDivDiv6{
+	width: 4px;
+	display: flex;
+}
+.kakaoNaverbetween{
+	width: 0;
+    height: 12px;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.naverButton{
+	cursor: pointer;
+	overflow: hidden;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-width: 0;
+    border-radius: 2px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: inline-flex;
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 14px;
+    padding-right: 14px;
+    width: 100%;
+}
+.naverButton::before{
+	position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.2s;
+    background-color: #f3f3f3;
+    content: "";
+}
+.naverButtonDiv{
+	display: flex;
+    visibility: inherit;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: row;
+}
+.naverButtonDivDiv{
+	width: 2px;
+	display: flex;
+}
+
+.naverButtonDivSpan{
+	display: block;
+	width: 20px;
+    height: 20px;
+}
+
+/* svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+} */
+
+.naverButtonDivSpanSvg{
+	display: block;
+    width: 100%;
+    height: 100%;
+    fill: #f3f3f3;
+}
+.naverLogoPath{
+	fill: rgb(0, 199, 60);
+}
+.naverButtonDivDiv2{
+	width: 2px;
+	display: flex;
+}
+
+.naverButtonDivDiv3{
+	-webkit-box-flex: 0;
+	flex-grow: 0;
+	flex-shrink: 0;
+	width: 2px;
+    height: 0;
+}
+.naverButtonDivDiv4{
+	width: 4px;
+	display: flex;
+}
+.naverButtonDivDivSpan{
+	border-width: 0px;
+    color: var(--system-on-color);
+    margin: 0px;
+    padding: 0px;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+
+/* .naverButtonDivDiv5{
+	border-width: 0;
+    color: var(--system-on-color);
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+} */
+.naverButtonDivDiv5P{
+	border-width: 0;
+    color: #0c0c0c;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+}
+.naverButtonDivDiv6{
+	width: 4px;
+	display: flex;
+}
+.naverGoogoleBetween{
+	width: 0;
+    height: 12px;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+
+.googleButton{
+	cursor: pointer;
+	overflow: hidden;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-width: 0;
+    border-radius: 2px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: inline-flex;
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 14px;
+    padding-right: 14px;
+    width: 100%;
+}
+.googleButton::before{
+	position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.2s;
+    background-color: #f3f3f3;
+    content: "";
+}
+.googleButtonDiv{
+	display: flex;
+    visibility: inherit;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: row;
+}
+.googleButtonDivDiv{
+	width: 2px;
+	display: flex;
+}
+
+.googleButtonDivSpan{
+	display: block;
+	width: 20px;
+    height: 20px;
+}
+.googleButtonDivSpanSvg{
+	display: block;
+    width: 100%;
+    height: 100%;
+    fill: var(--system-on-color);
+}
+/* input:focus {outline: 2px solid #d50000;} */
+.googlePath1{
+	fill: rgb(66, 128, 239);
+}
+.googlePath2{
+	fill: rgb(52, 163, 83);
+}
+.googlePath3{
+	    fill: rgb(246, 183, 4);
+}
+.googlePath4{
+	fill: rgb(229, 67, 53);
+}
+.googleButtonDivDiv2{
+	width: 2px;
+	display: flex;
+}
+
+
+.googleButtonDivDiv3{
+	-webkit-box-flex: 0;
+	flex-grow: 0;
+	flex-shrink: 0;
+	width: 2px;
+    height: 0;
+}
+.googleButtonDivDiv4{
+	width: 4px;
+	display: flex;
+}
+
+.googleButtonDivSpan2{
+	border-width: 0px;
+    color: var(--system-on-color);
+    margin: 0px;
+    padding: 0px;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+.googleButtonDivSpan2P{
+	border-width: 0px;
+    color : #0c0c0c;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+}
+
+.googleButtonDivDiv5{
+	    width: 4px;
+	    display: flex;
+}
+
+ 
+.loginContainerDiv3{
+	display: flex;
+	flex: 1 1 20px;
+}
+
+.loginContainerDiv4{
+	-webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+}
+ 
+ 
+.loginContainerDiv4aDiv{
+	-webkit-box-align: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.loginContainerDiv4aDivH6 {
+	border-width: 0;
+    color: #747474;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+}
+
+.loginContainerDiv4aDivDiv {
+	width: 8px;
+    height: 0;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.loginContainerDiv4aDivH6second{
+	border-width: 0;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+}
+
+
+
+.loginContainerDiv4aDiv2 {
+	display: none;
+	-webkit-box-align: center;
+	align-items: center;
+    flex-direction: row;
+}
+
+.loginContainerDiv4aDiv2p {
+	border-width: 0;
+    color: #747474;
+    margin: 0;
+    padding: 0;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.125rem;
+}
+
+.loginContainerDiv4aDiv2Div {
+	width: 8px;
+    height: 0;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.loginContainerDiv4aDiv2p2 {
+	border-width: 0;
+    color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.125rem;
+}
+
+
+ 
+.bodyContainerDivDiv2 {
+	 display: none;
+	margin-top: 32px;
+	-webkit-box-align: stretch;
+	align-items: stretch;
+    flex-direction: column;
+}
+
+ 
+.bodyContainerDivDiv2Div{
+	display: none;
+	-webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.bodyContainerDivDiv2DivADiv {
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.bodyContainerDivDiv2DivADivh6 {
+	border-width: 0;
+    color: #747474;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+}
+
+.bodyContainerDivDiv2DivADivDiv {
+	width: 8px;
+    height: 0;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.bodyContainerDivDiv2DivADivH6 {
+	border-width: 0;
+    color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+}
+
+.bodyContainerDivDiv2DivADiv2 {
+	display: none;
+	-webkit-box-align: center;
+	align-items: center;
+    flex-direction: row;
+}
+
+.bodyContainerDivDiv2DivADiv2P {
+	border-width: 0;
+    color: #747474;
+    margin: 0;
+    padding: 0;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.125rem;
+}
+
+.bodyContainerDivDiv2DivADiv2Div {
+	width: 8px;
+    height: 0;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.bodyContainerDivDiv2DivADiv2P2 {
+	border-width: 0;
+    color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.125rem;
+}
+
+
+.bodyContainer2 {
+	display: flex;
+	margin-top: 76px;
+	-webkit-box-align: stretch;
+	align-items: stretch;
+	flex-direction: column;
+}
+
+.wholeContainerDiv {
+	display: flex;
+	align-content: stretch;
+	flex-shrink: 1;
+	flex-direction: column;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 200;
+}	
+ 
+
+
+
+
+
+
+
+
+
+
+
