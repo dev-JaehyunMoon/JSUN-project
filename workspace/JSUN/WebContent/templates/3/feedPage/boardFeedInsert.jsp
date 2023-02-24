@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8" isELIgnored="true"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,14 +7,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
-<link rel="stylesheet" href="boardMessage.css">
-<link rel="stylesheet" href="common.css">
+<link rel="stylesheet" href="boardReviewInsert.css">
 <link rel="stylesheet" href="newHeader.css">
 <link rel="stylesheet" href="newFooter.css">
-<title>쪽지 보내기</title>
+<title>피드 작성</title>
 </head>
 <body>
-<section class="sectionContainer">
+<!-- Header -->
+	<section class="sectionContainer">
 		<header class="headContainer">
 			<div class="headDiv">
 				<div class="headDivDiv">
@@ -138,13 +138,12 @@
 			</div>
 		</header>
 	</section>
-	<!-- NAV -->
 	<div class="chatWholeContainer">
 		<div class="mainContainer">
 			<form action="#" class="mainContainerForm">
 				<div class="mainContainerFormDiv">
 					<div class="mainContainerFormDivDiv">
-						<h2 md="Headline3" class="mainContainerFormDivDivH2">쪽지 보내기</h2>
+						<h2 md="Headline3" class="mainContainerFormDivDivH2">피드 작성하기</h2>
 					</div>
 					<div class="mainContainerFormDivDiv2">
 						<div class="mainContainerFormDivDiv2Div">
@@ -152,34 +151,56 @@
 								<div size="28" class="mainContainerFormDivDiv2DivDivDiv">
 									<span class="mainContainerFormDivDiv2DivDivDivSpan"><picture
 											class="mainContainerFormDivDiv2DivDivDivSpanPicture">
-										<img sizes=" 100vw" src="https://class101.net/images/default-user.png"
+										<img sizes=" 100vw"
+											src="https://class101.net/images/default-user.png"
 											class="mainContainerFormDivDiv2DivDivDivSpanPictureImg"></picture></span>
 								</div>
 								<div md="Body2" class="mainContainerFormDivDiv2DivDivDiv2">Classmate</div>
 							</div>
+							<div class="mainContainerFormDivDiv2DivDiv2">
+								<label class="mainContainerFormDivDiv2DivDiv2Label"><input
+									type="file" accept="image/*"
+									class="mainContainerFormDivDiv2DivDiv2LabelInput"
+									id="attach">
+									<button type="button" icon-position="0"
+										class="mainContainerFormDivDiv2DivDiv2LabelButton"
+										color="default" fill="false">
+										<div position="0" buttonsize="md"
+											class="mainContainerFormDivDiv2DivDiv2LabelButtonDiv">
+											<svg xmlns="http://www.w3.org/2000/svg" width="18"
+												height="18" fill="none" viewBox="0 0 24 24"
+												class="mainContainerFormDivDiv2DivDiv2LabelButtonDivSvg">
+											<path fill-rule="evenodd"
+													d="M3 2h18a1 1 0 011 1v18a1 1 0 01-1 1H3a1 1 0 01-1-1V3a1 1 0 011-1zm5.5 11.5l2.5 3 3.5-4.5 4.5 6H5l3.5-4.5z"
+													fill="#1a1a1a"
+													class="mainContainerFormDivDiv2DivDiv2LabelButtonDivSvgPath"></path></svg>
+										</div>
+										<span class="mainContainerFormDivDiv2DivDiv2LabelButtonSpan">사진
+											첨부</span>
+									</button></label>
+							</div>
 						</div>
-						<div class="profileContainer">
-                        <div class="profileWrapper">
-                            <div class="profileDiv1">
-                                <div class="profileDiv1Div1">
-                                    <div class="profileDiv1Div1Div">
-                                        <img class="profileDiv1Div1DivImg"
-                                            src="https://cdn.class101.net/images/a787a840-b0c1-4ea5-b8f2-d280c954fc4e/375xauto"
-                                            alt="프로필 이미지" width="80" height="80">
-                                        <span class="profileDiv1Div1DivSpan"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        <div class="profileName">귀요미</div>
+						<div class=""></div>
+						<div top="8" right="0" bottom="0" left="0" class="fileContainer">
+							<div class="fileContainerDiv">
+								<div class="fileTest" style="width: 100%; height: 300px; background-size:100%;" ></div>
+								<button type="button" icon-position="2"
+									class="fileContainerDivButton " color="transparent">
+									<span class="fileContainerDivButtonSpan"><svg
+											xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+											viewBox="0 0 24 24">
+											<path fill="#1a1a1a" fill-rule="evenodd"
+												d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z"></path></svg></span>
+								</button>
+							</div>
+						</div>
 						<div class="mainContainerFormDivDiv2Div2">
-						<div class="mainContainerFormDivDiv2Div2Div">
-							<textarea class="mainContainerFormDivDiv2Div2DivTextarea"
-								placeholder="무단 홍보, 비방 글은 삭제될 수 있습니다." name="content"
-								autocomplete="off"></textarea>
+							<div class="mainContainerFormDivDiv2Div2Div">
+								<textarea class="mainContainerFormDivDiv2Div2DivTextarea"
+									placeholder="무단 홍보, 비방 글은 삭제될 수 있습니다." name="content"
+									autocomplete="off"></textarea>
+							</div>
 						</div>
-						</div>
-					</div>
-				</div>
 					</div>
 				</div>
 				<div class="mainContainerFormDiv2" zindex="2001">
@@ -191,7 +212,7 @@
 							<button type="submit" icon-position="0"
 								class="mainContainerFormDiv2Div2DivButton " color="orange"
 								fill="false">
-								<span class="mainContainerFormDiv2Div2DivButtonSpan">전송하기</span>
+								<span class="mainContainerFormDiv2Div2DivButtonSpan">저장하기</span>
 							</button>
 						</div>
 					</div>
@@ -199,7 +220,7 @@
 			</form>
 		</div>
 	</div>
-	<!-- Footer  -->
+		<!-- Footer  -->
 	<footer class="footContainer">
 		<div class="footDiv">
 			<div class="footDivDiv1">
@@ -336,11 +357,38 @@
 </body>
 <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
 <script>
-/* const input = document.querySelector("input[type=submit]");
-const span = document.querySelector("span");
+const file = document.querySelector('input[type=file]');
+const imgDiv = document.querySelector('div.fileContainer');
+const closeButton = document.querySelector('button.fileContainerDivButton ');
+const input = document.querySelector('#attach');
+const fileT = document.querySelector('.fileTest');
 
-input.addEventListener("click", function(){
-    this.style.background = "yellow";
-}); */
+closeButton.addEventListener('click', function (e) {
+    imgDiv.style.display = 'none';
+});
+
+file.addEventListener('change', function (e) {
+    // closeSpan(x 버튼)을 보이게 하기
+    imgDiv.style.display = "block";
+    // 기존의 이미지 숨김 처리
+    this.style.display = 'none';
+    let reader = new FileReader();
+    // 이벤트 타겟의 url을 불러와서
+    reader.readAsDataURL(e.target.files[0]);
+    // 올리기
+    // onload - file이 로드된 후 발생하는 이벤트
+    reader.onload = function (e) {
+        // 이벤트가 발생된 타겟의 url을 출력해서 result에 담아줌
+        let result = e.target.result;
+        // result가 이미지라면 result에 담긴 이미지로 설정
+        if (result.includes('image')) {
+            fileT.style.backgroundImage = `url('${result}')`;
+        // 이미지가 아니라면 no_image.png를 이미지로 설정
+        } else {
+        	imgDiv.style.display = 'none';
+        }
+    };
+});
+
 </script>
 </html>
