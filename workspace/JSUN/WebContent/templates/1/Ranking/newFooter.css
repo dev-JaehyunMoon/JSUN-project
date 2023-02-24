@@ -7,10 +7,80 @@
     font-family: 'pretendard';
 }
 
-
-
-
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,caption,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video,button {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+caption,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+button {
     margin: 0;
     padding: 0;
     border: 0;
@@ -18,7 +88,17 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     vertical-align: baseline;
 }
 
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
     display: block;
 }
 
@@ -37,15 +117,20 @@ body {
     word-break: keep-all;
 }
 
-ol,ul {
+ol,
+ul {
     list-style: none;
 }
 
-blockquote,q {
+blockquote,
+q {
     quotes: none;
 }
 
-blockquote:before,blockquote:after,q:before,q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
     content: '';
     content: none;
 }
@@ -55,7 +140,9 @@ table {
     border-spacing: 0;
 }
 
-*,*::before,*::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -69,7 +156,7 @@ body {
     word-break: keep-all;
 }
 
-body>div {
+body > div {
     position: relative;
     z-index: 0;
 }
@@ -90,17 +177,22 @@ input {
     margin: 0;
 }
 
-input[type='search']::-ms-clear,input[type='search']::-ms-reveal {
+input[type='search']::-ms-clear,
+input[type='search']::-ms-reveal {
     display: none;
     width: 0;
     height: 0;
 }
 
-input[type='search']::-webkit-search-decoration,input[type='search']::-webkit-search-cancel-button,input[type='search']::-webkit-search-results-button,input[type='search']::-webkit-search-results-decoration {
+input[type='search']::-webkit-search-decoration,
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-results-button,
+input[type='search']::-webkit-search-results-decoration {
     display: none;
 }
 
-input[type='number']::-webkit-inner-spin-button,input[type='number']::-webkit-outer-spin-button {
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
     display: none;
 }
 
@@ -122,11 +214,16 @@ svg:not(:root) {
     top: 0;
     z-index: 10;
 }
-ol,ul {
+ol,
+ul {
     list-style: none;
 }
 
 /* Footer CSS */
+.footerLogo {
+    width: 100px;
+}
+
 .footContainer {
     border-top: 1px solid rgb(248, 248, 248);
     background-color: rgb(255, 255, 255);
@@ -150,7 +247,9 @@ ol,ul {
     display: flex;
     -webkit-box-align: center;
     align-items: center;
-    margin-right: 32px;
+    background-image: src('favicon.png');
+    justify-content: center;
+    margin-right: 140px;
 }
 
 .footDivDiv1Div1Div1Svg {
@@ -165,7 +264,7 @@ ol,ul {
     line-height: 20px;
     letter-spacing: -0.15px;
     color: rgb(102, 102, 102);
-    font-feature-settings: "case", "ss02";
+    font-feature-settings: 'case', 'ss02';
     margin-top: 20px;
 }
 
@@ -176,7 +275,7 @@ ol,ul {
     line-height: 20px;
     letter-spacing: -0.15px;
     color: rgb(102, 102, 102);
-    font-feature-settings: "case", "ss02";
+    font-feature-settings: 'case', 'ss02';
     margin-top: 20px;
 }
 
@@ -186,7 +285,7 @@ ol,ul {
     font-size: 14px;
     line-height: 20px;
     letter-spacing: -0.15px;
-    font-feature-settings: "case", "ss02";
+    font-feature-settings: 'case', 'ss02';
     color: rgb(26, 26, 26);
     padding: 8px 0px;
     margin-top: 12px;
@@ -299,7 +398,6 @@ ol,ul {
     flex: 1 1 0%;
     padding: 8px 12px;
 }
-
 
 .footDivDiv1Div4 {
     -webkit-box-flex: 0;
@@ -432,7 +530,7 @@ ol,ul {
     line-height: 20px;
     text-align: center;
     letter-spacing: -0.15px;
-    font-feature-settings: "case", "ss02";
+    font-feature-settings: 'case', 'ss02';
     padding: 0px;
     box-sizing: border-box;
     width: 100%;
@@ -469,7 +567,6 @@ ol,ul {
     margin-top: 24px;
     display: flex;
     flex-direction: column;
-
 }
 
 .footDivDiv2Div1 {
@@ -494,7 +591,7 @@ ol,ul {
     font-weight: normal;
     font-size: 11px;
     line-height: 16px;
-    font-feature-settings: "case", "ss02";
+    font-feature-settings: 'case', 'ss02';
     display: inline-flex;
     color: rgb(162, 162, 162);
 }
@@ -503,7 +600,7 @@ ol,ul {
     display: block;
     width: 24px;
     text-align: center;
-    content: "･";
+    content: '･';
 }
 
 .footDivDiv2Div2 {
@@ -524,7 +621,7 @@ ol,ul {
     font-weight: normal;
     font-size: 11px;
     line-height: 16px;
-    font-feature-settings: "case", "ss02";
+    font-feature-settings: 'case', 'ss02';
     display: inline-flex;
     color: rgb(162, 162, 162);
 }
@@ -533,7 +630,7 @@ ol,ul {
     display: block;
     width: 24px;
     text-align: center;
-    content: "･";
+    content: '･';
 }
 
 .footDivDiv2Div2Div2 {
@@ -541,7 +638,7 @@ ol,ul {
     font-weight: normal;
     font-size: 9px;
     line-height: 12px;
-    font-feature-settings: "case", "ss02";
+    font-feature-settings: 'case', 'ss02';
     color: rgb(202, 202, 202);
     margin-top: 16px;
 }
@@ -569,7 +666,7 @@ ol,ul {
     align-items: center;
 }
 
-.footDivSpan>a {
+.footDivSpan > a {
     color: rgb(255, 255, 255);
 }
 
@@ -607,13 +704,6 @@ ol,ul {
     align-items: center;
 }
 
-
-
-
-
-
-
-
 @media screen and (min-width: 1024px) {
     .footDivDiv1Div1Div3DivDivButtonDivSpan {
         line-height: 0.875rem;
@@ -630,9 +720,7 @@ ol,ul {
     }
 }
 
-
 @media (min-width: 1024px) {
-
     .footContainer {
         padding-top: 40px;
         padding-bottom: 64px;
@@ -711,7 +799,6 @@ ol,ul {
     }
 }
 
-
 @media (min-width: 1024px) {
     @media (min-width: 1240px) {
         .footDiv {
@@ -724,7 +811,6 @@ ol,ul {
 }
 
 @media (max-width: 1023px) {
-
     .footDiv {
         padding: 0px 12px;
     }
@@ -732,5 +818,4 @@ ol,ul {
     .footDivDiv2 {
         padding: 0px 12px;
     }
-
 }

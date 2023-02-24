@@ -1,15 +1,4 @@
 @charset "UTF-8";
-
-@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
-
-#minji {
-    border: 5px dotted mistyrose;
-    border-style: outset;
-}
-* {
-    font-family: 'pretendard';
-}
-
 ::selection {
     background-color: #ff5946 !important;
     color: #fff !important;
@@ -256,6 +245,15 @@ ul {
 
 /* 기본 설정 */
 
+/* .wholeContainer {
+    display: flex;
+    overflow: hidden;
+} */
+.bannerContainer {
+    width: 100%;
+    height: 100%;
+}
+
 .RankWholeContainer {
     border-radius: 0;
     width: 100%;
@@ -327,7 +325,6 @@ ul {
     -webkit-box-align: center;
     align-items: center;
     flex-direction: row;
-    justify-content: center;
 }
 
 .RankIconDiv1 {
