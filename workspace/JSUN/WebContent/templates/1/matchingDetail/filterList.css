@@ -1,4 +1,21 @@
 @charset "UTF-8";
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+.RankTopIconContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#minji {
+    border: 5px dotted mistyrose;
+    border-style: outset;
+}
+* {
+    font-family: 'pretendard';
+}
+
 ::selection {
     background-color: #ff5946 !important;
     color: #fff !important;
@@ -312,13 +329,15 @@ ul {
 .RankIconContainer {
     display: flex;
     width: 100%;
-    overflow: auto;
+    overflow: visible;
     -webkit-box-align: center;
     align-items: center;
     flex-direction: row;
+    justify-content: center;
 }
 
 .RankIconDiv1 {
+    position: relative;
     display: flex;
     -webkit-box-align: center;
     align-items: center;
@@ -414,6 +433,7 @@ ul {
     align-items: center;
     flex-direction: column;
     cursor: pointer;
+    position: relative;
 }
 
 .RankIconDiv3Div1 {
@@ -451,7 +471,8 @@ ul {
     height: 100%;
     vertical-align: top;
     border-radius: 30%;
-    border: 2px solid gray;
+    border: 1px solid black;
+    border-style: outset;
 }
 .RankIconDiv3Div1Div1Div1Picture1::after {
     content: '';
@@ -892,12 +913,15 @@ svg:not(:root) {
     -webkit-box-pack: center;
     justify-content: center;
     margin-top: 32px;
-    margin-bottom: 56px;
+    /* margin-bottom: 56px; 
+    */
+    padding-bottom: 48px;
 }
 
 @media (min-width: 1024px) {
     .bottomContainer {
-        margin-bottom: 72px;
+        /* margin-bottom: 72px; */
+        padding-bottom: 48px;
     }
 }
 
@@ -941,3 +965,22 @@ svg:not(:root) {
     -webkit-box-align: center;
     align-items: center;
 }
+.topAnimation {
+    top: -5px;
+    transition: 0.3s;
+    display: none;
+}
+
+.RankIconDiv1:hover {
+    top: -7px;
+    transition: 0.5s;
+}
+.RankIconDiv3:hover {
+    top: -7px;
+    transition: 0.5s;
+}
+
+/* #second:hover {
+    top: -5px;
+    transition: 0.3s;
+} */
