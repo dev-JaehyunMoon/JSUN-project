@@ -8,11 +8,166 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="common.css">
         <link rel="stylesheet" href="edit.css">
+        <link rel="stylesheet" href="header.css">
         <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
         <title>프로필 수정</title>
     </head>
 
     <body>
+        <section class="sectionContainer">
+            <!-- Header -->
+            <header class="headContainer">
+                <div class="headDiv">
+                    <div class="headDivDiv">
+                        <div class="headDivDivDiv">
+                            <a href="https://class101.net/classic">
+                                <div class="headDivDivDivADiv1">
+                                    <img class="logoImg" src="rewrite.png">
+                                </div>
+                            </a>
+                            <div class="headDivDivDivDiv1"></div>
+                            <div class="headDivDivDivDiv2">
+                                <div class="headDivDivDivDiv2Div1">
+                                    <a href="https://class101.net/ko">
+                                        <h4 class="headDivDivDivDiv2Div1AH4">매칭</h4>
+                                    </a>
+                                    <div class="headDivDivDivDiv2Div1Div"></div>
+                                    <a href="https://class101.net/store">
+                                        <h4 class="headDivDivDivDiv2Div1AH4">피드</h4>
+                                    </a>
+                                </div>
+                                <div class="headDivDivDivDiv2Div2"></div>
+                                <div class="headDivDivDivDiv2Div3">
+                                    <div class="headDivDivDivDiv2Div3Div">
+                                        <div class="headDivDivDivDiv2Div3DivDiv">
+                                            <div class="headDivDivDivDiv2Div3DivDivDiv">
+                                                <div class="headDivDivDivDiv2Div3DivDivDivDiv">
+                                                    <div class="headDivDivDivDiv2Div3DivDivDivDivDiv">
+                                                        <p class="headDivDivDivDiv2Div3DivDivDivDivDivP">
+                                                            원하는 이상형을 검색해보세요!
+                                                        </p>
+                                                        <span class="headDivDivDivDiv2Div3DivDivDivDivDivSpan">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                                class="headDivDivDivDiv2Div3DivDivDivDivDivSpanSvg">
+                                                                <path
+                                                                    d="M16.105 17.66A8.997 8.997 0 0 1 10.5 19.6c-5.02 0-9.1-4.08-9.1-9.1s4.08-9.1 9.1-9.1 9.1 4.08 9.1 9.1c0 2.05-.67 3.985-1.94 5.605l5.48 5.485-1.555 1.555-5.485-5.48.005-.005ZM10.5 3.6a6.907 6.907 0 0 0-6.9 6.9c0 3.805 3.095 6.9 6.9 6.9s6.9-3.095 6.9-6.9-3.095-6.9-6.9-6.9Z">
+                                                                </path>
+                                                            </svg>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="display: none" class="headDivDivDivDiv3">
+                                <div class="headDivDivDivDiv3Div">
+                                    <div class="headDivDivDivDiv3DivDiv">
+                                        <div class="headDivDivDivDiv3DivDivDiv">
+
+                                            <div class="headDivDivDivDivDivDivDivDiv"></div>
+                                            <a href="https://class101.net/classic/login?redirect=%2Fclassic%3F">
+                                                <p class="headDivDivDivDiv3DivDivDivDiv2AP">로그인</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="headDivDivDivDiv4">
+                                <div class="headDivDivDivDiv4Div">
+                                    <div class="headDivDivDivDiv4DivDiv">
+
+                                        <div class="headDivDivDivDivDivDivDivDiv"></div>
+                                        <a href="">
+                                            <span class="headDivDivDivDiv4DivDivSpan">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    class="headDivDivDivDiv4DivDivSpanSvg">
+                                                    <path class="headDivDivDivDiv4DivDivSpanSvgPath"
+                                                        d="M21.141 3.91A6.262 6.262 0 0 0 16.654 2c-1.621 0-3.252.635-4.488 1.91-.06.06-.11.125-.165.19-.055-.06-.105-.13-.165-.19A6.263 6.263 0 0 0 7.35 2c-1.621 0-3.252.635-4.488 1.91-2.481 2.545-2.481 6.67 0 9.21l8.935 8.79c.06.06.135.09.21.09.075 0 .15-.03.21-.09l8.935-8.79c2.467-2.54 2.467-6.665-.01-9.21Zm-1.78 7.35-7.37 7.245-7.369-7.245c-1.47-1.525-1.466-3.99.015-5.51A3.73 3.73 0 0 1 7.33 4.605c1.005 0 2.19.505 2.996 1.25.73.68 1.066 1.235 1.361 1.655.03.045.125.215.3.215s.27-.175.305-.22c.296-.425.63-.975 1.356-1.655.806-.75 1.991-1.25 2.997-1.25a3.74 3.74 0 0 1 2.696 1.145c1.486 1.525 1.491 3.99.02 5.514Z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                        </a>
+                                        <div class="headDivDivDivDivDivDivDivDiv"></div>
+                                        <div id="mypageLogo" class="headDivDivDivDiv4DivDivDiv2">
+                                            <div class="headDivDivDivDiv4DivDivDiv2Div">
+                                                <div class="headDivDivDivDiv4DivDivDiv2DivDiv1">
+                                                    <div class="headDivDivDivDiv4DivDivDiv2DivDiv1Div">
+                                                        <picture class="headDivDivDivDiv4DivDivDiv2DivDiv1DivPicture">
+                                                            <source
+                                                                srcset="https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/640xauto.webp 640w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/750xauto.webp 750w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/828xauto.webp 828w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/1080xauto.webp 1080w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/1200xauto.webp 1200w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/1920xauto.webp 1920w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/2048xauto.webp 2048w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/3840xauto.webp 3840w">
+                                                            <img class="headDivDivDivDiv4DivDivDiv2DivDiv1DivPictureImg"
+                                                                src="https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/2048xauto.webp"
+                                                                alt="profile"
+                                                                srcset="https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/640xauto 640w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/750xauto 750w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/828xauto 828w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/1080xauto 1080w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/1200xauto 1200w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/1920xauto 1920w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/2048xauto 2048w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/3840xauto 3840w">
+                                                        </picture>
+                                                    </div>
+                                                </div>
+                                                <img id="arrowImg" src="down.png" class="Arrows" alt="아래">
+                                            </div>
+                                            <div id="mypageCont" class="myProContainer">
+                                                <div class="myProWrapper">
+                                                    <div class="mpDiv">
+                                                        <a href="">
+                                                            <div class="mpDivDiv">
+                                                                <div class="mpDivDivDiv1">
+                                                                    <div class="mpDivDivDiv1Div">
+                                                                        <div class="mpDivDivDiv1DivDiv">
+                                                                            <picture class="mpDivDivDiv1DivDivPicture">
+                                                                                <source
+                                                                                    srcset="https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/640xauto.webp 640w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/750xauto.webp 750w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/828xauto.webp 828w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/1080xauto.webp 1080w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/1200xauto.webp 1200w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/1920xauto.webp 1920w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/2048xauto.webp 2048w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/3840xauto.webp 3840w">
+                                                                                <img class="mpDivDivDiv1DivDivPictureImg"
+                                                                                    src="https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e"
+                                                                                    alt="profile"
+                                                                                    srcset="https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/640xauto 640w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/750xauto 750w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/828xauto 828w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/1080xauto 1080w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/1200xauto 1200w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/1920xauto 1920w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/2048xauto 2048w,https://cdn.class101.net/images/f109cbe1-b6da-4347-a369-d5a47bcdce5e/3840xauto 3840w">
+                                                                            </picture>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mpDivDivDiv2">
+                                                                    <p class="mpDivDivDiv2P">Classmate</p>
+                                                                    <button class="mpDivDivDiv2Button">
+                                                                        <div class="mpDivDivDiv2ButtonDiv">
+                                                                            <span
+                                                                                class="mpDivDivDiv2ButtonDivSpan1"></span>
+                                                                            <div class="mpDivDivDiv2ButtonDivDiv"></div>
+                                                                            <span
+                                                                                class="mpDivDivDiv2ButtonDivSpan2">마이페이지</span>
+                                                                        </div>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                        <div class="mpDivDiv2"></div>
+                                                        <div class="mpDivDiv3">
+                                                            <div class="mpDivDiv3Div1">
+                                                                <p class="mpDivDiv3Div1P">로그아웃</p>
+                                                            </div>
+                                                            <div class="mpDivDiv3Div2"></div>
+                                                            <div class="mpDivDiv3Div3">
+                                                                <button class="mpDivDiv3Div3Button">
+                                                                    <div class="mpDivDiv3Div3ButtonDiv">
+                                                                        <span class="mpDivDiv3Div3ButtonDivSpan">
+                                                                            <p class="mpDivDiv3Div3ButtonDivSpanP">🇰🇷
+                                                                                한국어</p>
+                                                                        </span>
+                                                                    </div>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </section>
         <div class="editContainer">
             <div class="editDiv">
                 <div class="editDivDiv1"></div>
@@ -241,5 +396,8 @@
             </div>
         </div>
     </body>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="header.js"></script>
+    <script src="edit.js"></script>
 
     </html>
