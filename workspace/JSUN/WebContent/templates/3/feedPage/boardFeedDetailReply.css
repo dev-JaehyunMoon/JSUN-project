@@ -1679,7 +1679,11 @@ h3 {
     height: 100%;
 }
 
-
+.heart {
+    display: none;
+    position: absolute;
+    width: 18px;
+}
 
 
 

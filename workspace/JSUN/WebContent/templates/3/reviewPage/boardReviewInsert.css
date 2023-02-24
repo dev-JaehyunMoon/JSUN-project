@@ -364,7 +364,6 @@ hr {
 }
 
 .mainContainerFormDiv2 {
-	position: fixed;
     z-index: 2001;
     bottom: 0px;
     width: 100%;

@@ -518,6 +518,10 @@ span {
     position: absolute;
 }
 
+.mainContainerDivSectionDivDiv3Div3DivUlLiDivADivDivSpanPictureImg:hover {
+	 opacity: 0.7;
+}
+
 .mainContainerDivSectionDivDiv3Div3DivUlLiDivADivDivSpanPictureImg {
 	transform: scale(1);
     transition: transform 0.3s ease 0s, opacity 0.1s linear 0s !important;
@@ -1709,6 +1713,10 @@ span {
     position: absolute;
 }
 
+.mainContainerDivSectionDivDiv3Div3DivUlLi5DivADivDivSpanPictureImg:hover {
+	opacity: 0.7;
+}
+
 .mainContainerDivSectionDivDiv3Div3DivUlLi5DivADivDivSpanPictureImg {
 	transform: scale(1);
     transition: transform 0.3s ease 0s, opacity 0.1s linear 0s !important;
@@ -1723,6 +1731,10 @@ span {
     -webkit-box-align: stretch;
     align-items: stretch;
     flex-direction: column;
+}
+
+.mainContainerDivSectionDivDiv3Div3DivUlLi5DivADivDivSpanDivButton:hover {
+	background-color: white;
 }
 
 .mainContainerDivSectionDivDiv3Div3DivUlLi5DivADivDivSpanDivButton {
@@ -1753,6 +1765,7 @@ span {
     -webkit-box-align: center;
     align-items: center;
     flex-direction: row;
+    cursor: pointer;
 }
 
 .mainContainerDivSectionDivDiv3Div3DivUlLi5DivADivDivSpanDivButtonSpan {

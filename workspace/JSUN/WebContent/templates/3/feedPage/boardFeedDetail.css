@@ -316,8 +316,7 @@ span {
 }
 
 .mainContainerDiv2DivDivDivDivButtonSpanButtonSpanSvg {
-	filter: drop-shadow(rgba(41, 42, 43, 0.1) 0px 1px 3px)
-		drop-shadow(rgba(0, 0, 0, 0.1) 0px 0px 0.5px);
+	position: absolute;
 }
 
 .mainContainerDiv2DivDivDivDivButton2 {
@@ -1458,7 +1457,10 @@ span {
     height: 100%;
 }
 
-
+.heart {
+	position: absolute;
+	display: none;
+}
 
 
 
